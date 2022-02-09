@@ -1,0 +1,105 @@
+.toplink {
+    background: rgba(0, 0, 0, 0.50);
+    border: rgba(0, 0, 0, 0.50);
+    border-style: solid;
+}
+
+h1 {
+    color: darkmagenta;
+    font-size: 70px;
+    background: rgba(0, 0, 0, 0.50);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+body { 
+  background-image: url('space.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2 {
+    color: aqua; 
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+h3 {
+    color: aqua; 
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    text-decoration: underline;
+    
+}
+
+p {
+    color: aquamarine; 
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+li {
+    color: aquamarine; 
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.slider-frame {
+    background: rgba(0, 0, 0, 0.50);
+    overflow: hidden;
+    height: 577px;
+    width: 770px;
+    margin-top: 20px;
+}
+
+/* Slide Anim */
+
+/* This code defines the animation and how it will transition between
+one image to another. */
+
+@-webkit-keyframes slide_animation {
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:770px;} /* Equal to width of the pictures */
+    30% {left:770px;}
+    40% {left:1540px;} /* Equal to width of the pictures times 2 */
+    50% {left:1540px;} 
+    60% {left:770px;} /* Equal to width of the pictures */
+    70% {left:770px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+
+/* This code contains the properties of the slide show itself.
+"n" is equal to the number of images in the slide show. */
+
+.slide-images {
+    width: 2310px; /* Width is n times the width of the pictures. */
+    height: 577px; /* Height is equal to the height of the pictures. */
+    margin: 0 0 0 -1540px; /* Fourth ARG is n times the width of the pictures -1, in negative form. */
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s; /* Duration between animations in seconds. */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+/* This code contains the image size and properties. It is recommended you use
+images with the SAME WIDTH AND HEIGHT to use this code properly. */
+
+.img-container {
+    height: 577px; /* Height of the Images */
+    width: 770px; /* Width of the Images */
+    position: relative;
+    float: left;
+}
+
+/* End Slide Anim Code */

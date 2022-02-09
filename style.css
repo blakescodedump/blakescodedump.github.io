@@ -5,7 +5,7 @@
 }
 
 h1 {
-    color: darkmagenta;
+    color: teal;
     font-size: 70px;
     background: rgba(0, 0, 0, 0.50);
     font-family: 'Courier New', Courier, monospace;
@@ -37,7 +37,7 @@ h3 {
 }
 
 p {
-    color: aquamarine; 
+    color: aquamarine;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -51,6 +51,8 @@ li {
 }
 
 .slider-frame {
+    margin: 29.5%;
+    margin-bottom: 0px;
     background: rgba(0, 0, 0, 0.50);
     overflow: hidden;
     height: 577px;

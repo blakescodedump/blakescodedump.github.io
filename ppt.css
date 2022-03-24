@@ -1,0 +1,85 @@
+header {
+    background: rgba(182, 0, 0, 0.5);
+    margin-top: 0px;
+}
+
+footer {
+    margin: 0px;
+    background: rgba(182, 0, 0, 0.5);
+}
+}
+
+.main-links {
+    font-size: 15px;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+body { 
+  background-image: url('redspace.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align-last: center;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    text-decoration: underline;
+    
+}
+
+p {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(255, 72, 0);
+}
+
+
+li {
+    color: aquamarine; 
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+iframe {
+    align-content: center;
+    width: 1276px;
+    height: 720px;
+}
+
+.glowing-border {
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+    border-radius: 7px;
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: red;
+    box-shadow: 0 0 10px orange;
+}

@@ -1,3 +1,4 @@
+
 .toplink {
     background: rgba(0, 0, 0, 0.50);
     border: rgba(0, 0, 0, 0.50);
@@ -8,10 +9,11 @@ header {
     background: rgba(0, 0, 0, 0.50);
 }
 
-footer {
-    margin: 0px;
-    background: rgba(0, 0, 0, 0.50);
-}
+hr{
+    color: aqua;
+    width: 90%;
+ }
+
 
 .main-links {
     font-size: 15px;
@@ -26,10 +28,7 @@ h1 {
 }
 
 body { 
-  background-image: url('space.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+   background-color: transparent;
 }
 
 h2 {
@@ -73,9 +72,12 @@ li {
     margin-bottom: 0px;
     background: rgba(0, 0, 0, 0.50);
     overflow: hidden;
-    height: 577px;
+    height: 515px;
     width: 770px;
     margin-top: 20px;
+    border: 2px solid rgb(0, 255, 191);
+    box-shadow: 0 0 10px rgb(0, 255, 191);
+    border-radius: 7px;
 }
 
 iframe {
@@ -127,3 +129,12 @@ images with the SAME WIDTH AND HEIGHT to use this code properly. */
 }
 
 /* End Slide Anim Code */
+
+.bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+}

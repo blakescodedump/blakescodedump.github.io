@@ -1,0 +1,91 @@
+header {
+    background: rgba(204, 0, 255, 0.5);
+    margin-top: 0px;
+}
+
+footer {
+    margin: 0px;
+}
+}
+
+.main-links {
+    font-size: 15px;
+}
+
+h1 {
+    color: rgb(204, 0, 255);
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+body { 
+  background-color: transparent;
+  text-align-last: center;
+  align-content: center;
+}
+
+h2 {
+    color: rgb(204, 0, 255);
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    color: rgb(204, 0, 255);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+p {
+    color: rgb(204, 0, 255);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(247, 0, 255);
+}
+
+
+li {
+    color: aquamarine; 
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+iframe {
+    align-content: center;
+    width: 1276px;
+    height: 720px;
+}
+
+.glowing-border {
+    border: 2px solid rgb(204, 0, 255);
+    box-shadow: 0 0 10px rgb(204, 0, 255);
+    border-radius: 7px;
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: rgb(204, 0, 255);
+    box-shadow: 0 0 10px rgb(247, 0, 255);
+}
+
+.bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+}
